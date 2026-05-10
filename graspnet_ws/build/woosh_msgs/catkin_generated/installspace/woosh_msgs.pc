@@ -1,8 +1,0 @@
-prefix=/home/hello/workspace/anygrasp_sdk/graspnet-baseline/graspnet_ws/install
-
-Name: woosh_msgs
-Description: Description of woosh_msgs
-Version: 1.1.4
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: std_msgs actionlib_msgs nav_msgs
