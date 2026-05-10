@@ -1,0 +1,6 @@
+Header header
+string hardwareVersion
+string softwareVersion
+string IAPSoftwareVersion
+string movebaseType
+Parameter parameter

@@ -1,0 +1,8 @@
+prefix=/home/hello/workspace/anygrasp_sdk/graspnet-baseline/graspnet_ws/devel
+
+Name: graspnet_ws
+Description: Description of graspnet_ws
+Version: 0.0.0
+Cflags: -I/home/hello/workspace/anygrasp_sdk/graspnet-baseline/graspnet_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime

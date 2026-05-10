@@ -1,0 +1,6 @@
+# ninja log v5
+2	7312	0	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/pointnet2/build/temp.linux-x86_64-3.6/_ext_src/src/cylinder_query_gpu.o	71d2a4e67606d3a1
+2	7315	0	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/pointnet2/build/temp.linux-x86_64-3.6/_ext_src/src/ball_query_gpu.o	88b7074e6827bc6a
+2	7330	0	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/pointnet2/build/temp.linux-x86_64-3.6/_ext_src/src/group_points_gpu.o	4b47e1e69077899
+2	7369	0	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/pointnet2/build/temp.linux-x86_64-3.6/_ext_src/src/interpolate_gpu.o	b236e4baa216b644
+1	7405	0	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/pointnet2/build/temp.linux-x86_64-3.6/_ext_src/src/sampling_gpu.o	db35f23e147caed6

@@ -1,0 +1,2 @@
+graspnet_ws:woosh_msgs
+-DCATKIN_DEVEL_PREFIX=/home/hello/workspace/anygrasp_sdk/graspnet-baseline/graspnet_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hello/workspace/anygrasp_sdk/graspnet-baseline/graspnet_ws/install -G Unix Makefiles

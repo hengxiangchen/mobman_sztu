@@ -1,0 +1,23 @@
+# map_server
+
+# if pathName == "", use "./default_map"
+string pathName
+
+# true: use this map as static map the map_server pub, when call startServe last time
+bool useSavedMap
+
+# for map yaml
+Beacon[] beaconList #exist data: use new data replace old data; empty: do nothing
+bool eraseBeaconList #true: delete all beacon data from yaml (only if beaconList is empty); false: do nothing
+
+# For map image
+
+# topic != "": save the map from this topic
+# topic == "": save nav_msgs/OccupancyGrid data
+string topic
+
+# only if topic == "", this map data will be used
+nav_msgs/OccupancyGrid map
+---
+bool success   # indicate successful run of triggered service
+string message # informational, e.g. for error messages

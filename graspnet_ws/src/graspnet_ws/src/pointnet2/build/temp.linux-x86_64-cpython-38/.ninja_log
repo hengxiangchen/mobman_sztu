@@ -1,0 +1,12 @@
+# ninja log v6
+10	8558	1744817477486239854	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/sampling_gpu.o	2861120c80c7d186
+9	8589	1744817477482239598	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/ball_query_gpu.o	9d0190e25c24bd06
+9	8784	1744817477482239598	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/cylinder_query_gpu.o	9b712e368dda2955
+10	10235	1744817477486239854	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/interpolate_gpu.o	d34ed74d54fdb96e
+10	10505	1744817477486239854	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/group_points_gpu.o	ee152f9f72bc0c77
+10	13771	1744817477486239854	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/interpolate.o	8afec3151f6374b6
+9	14673	1744817477482239598	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/group_points.o	8cec7228223ee721
+9	14821	1744817477482239598	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/ball_query.o	d6d0236f938b328e
+10	15622	1744817477486239854	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/sampling.o	245fcf6984e2f706
+9	15812	1744817477482239598	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/cylinder_query.o	c2e0e1dfd80d25d
+9	18854	1744817477482239598	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/pointnet2/build/temp.linux-x86_64-cpython-38/_ext_src/src/bindings.o	63400103a4562eaa

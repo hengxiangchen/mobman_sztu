@@ -1,0 +1,7 @@
+float64[] array1
+float64[] array2
+---
+bool success
+string message
+
+

@@ -1,0 +1,13 @@
+Header header
+float32 wheelPerimeter
+float32 wheelDistant
+float32 ratioLeft
+float32 ratioRight
+uint32 pulsePerCircle
+float32 maxRPM
+float32 minSpeed
+float32 maxLinear
+float32 maxAngular
+float32 joystickMaxLinear
+float32 joystickMaxAngular
+float32 maxSpeed

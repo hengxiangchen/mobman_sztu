@@ -1,0 +1,9 @@
+# Set Get beacon list
+bool isSave #true: save beacon list false: get beacon list
+Beacon[] beaconList
+
+---
+
+Beacon[] beaconList
+string message
+

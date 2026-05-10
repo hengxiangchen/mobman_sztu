@@ -1,0 +1,6 @@
+uint8 safetyField
+---
+bool enable
+uint8 safetyField
+bool success
+string message

@@ -1,0 +1,11 @@
+Header header
+uint8 seq
+int8 rssiFirst
+int8 rssiAll
+uint8 battery
+uint8 keys
+uint16 tagID
+float32 distance
+float32 angle
+uint8 anchorStatus
+uint8 quality

@@ -1,0 +1,12 @@
+Header header
+uint32 BMSStatus
+float32 current
+float32 voltageMax
+float32 voltageMin
+float32 voltageTotal
+float32 temperatureMax
+float32 temperatureMin
+uint16 chargeCycle
+float32 capacityResidue
+float32 capacityTotal
+uint8 switchStatus

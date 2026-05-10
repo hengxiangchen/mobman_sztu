@@ -1,0 +1,154 @@
+;; Auto-generated. Do not edit!
+
+
+(when (boundp 'woosh_msgs::LiftControl3Goal)
+  (if (not (find-package "WOOSH_MSGS"))
+    (make-package "WOOSH_MSGS"))
+  (shadow 'LiftControl3Goal (find-package "WOOSH_MSGS")))
+(unless (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL")
+  (make-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+
+(in-package "ROS")
+;;//! \htmlinclude LiftControl3Goal.msg.html
+
+
+(intern "*CANCEL*" (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(shadow '*CANCEL* (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(defconstant woosh_msgs::LiftControl3Goal::*CANCEL* 0)
+(intern "*EXCUTE*" (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(shadow '*EXCUTE* (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(defconstant woosh_msgs::LiftControl3Goal::*EXCUTE* 1)
+(intern "*PAUSE*" (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(shadow '*PAUSE* (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(defconstant woosh_msgs::LiftControl3Goal::*PAUSE* 2)
+(intern "*RESUM*" (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(shadow '*RESUM* (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(defconstant woosh_msgs::LiftControl3Goal::*RESUM* 3)
+(intern "*EXEC_QUERY*" (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(shadow '*EXEC_QUERY* (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(defconstant woosh_msgs::LiftControl3Goal::*EXEC_QUERY* 0)
+(intern "*EXEC_ABSOLUTE*" (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(shadow '*EXEC_ABSOLUTE* (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(defconstant woosh_msgs::LiftControl3Goal::*EXEC_ABSOLUTE* 1)
+(intern "*EXEC_RELATIVE*" (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(shadow '*EXEC_RELATIVE* (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(defconstant woosh_msgs::LiftControl3Goal::*EXEC_RELATIVE* 2)
+(intern "*EXEC_CALIBRATION*" (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(shadow '*EXEC_CALIBRATION* (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(defconstant woosh_msgs::LiftControl3Goal::*EXEC_CALIBRATION* 3)
+(intern "*EXEC_TESTMODE*" (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(shadow '*EXEC_TESTMODE* (find-package "WOOSH_MSGS::LIFTCONTROL3GOAL"))
+(defconstant woosh_msgs::LiftControl3Goal::*EXEC_TESTMODE* 5)
+
+(defun woosh_msgs::LiftControl3Goal-to-symbol (const)
+  (cond
+        ((= const 0) 'woosh_msgs::LiftControl3Goal::*CANCEL*)
+        ((= const 1) 'woosh_msgs::LiftControl3Goal::*EXCUTE*)
+        ((= const 2) 'woosh_msgs::LiftControl3Goal::*PAUSE*)
+        ((= const 3) 'woosh_msgs::LiftControl3Goal::*RESUM*)
+        ((= const 0) 'woosh_msgs::LiftControl3Goal::*EXEC_QUERY*)
+        ((= const 1) 'woosh_msgs::LiftControl3Goal::*EXEC_ABSOLUTE*)
+        ((= const 2) 'woosh_msgs::LiftControl3Goal::*EXEC_RELATIVE*)
+        ((= const 3) 'woosh_msgs::LiftControl3Goal::*EXEC_CALIBRATION*)
+        ((= const 5) 'woosh_msgs::LiftControl3Goal::*EXEC_TESTMODE*)
+        (t nil)))
+
+(defclass woosh_msgs::LiftControl3Goal
+  :super ros::object
+  :slots (_mode _execmode _speed _height ))
+
+(defmethod woosh_msgs::LiftControl3Goal
+  (:init
+   (&key
+    ((:mode __mode) 0)
+    ((:execmode __execmode) 0)
+    ((:speed __speed) 0.0)
+    ((:height __height) 0.0)
+    )
+   (send-super :init)
+   (setq _mode (round __mode))
+   (setq _execmode (round __execmode))
+   (setq _speed (float __speed))
+   (setq _height (float __height))
+   self)
+  (:mode
+   (&optional __mode)
+   (if __mode (setq _mode __mode)) _mode)
+  (:execmode
+   (&optional __execmode)
+   (if __execmode (setq _execmode __execmode)) _execmode)
+  (:speed
+   (&optional __speed)
+   (if __speed (setq _speed __speed)) _speed)
+  (:height
+   (&optional __height)
+   (if __height (setq _height __height)) _height)
+  (:serialization-length
+   ()
+   (+
+    ;; uint8 _mode
+    1
+    ;; uint8 _execmode
+    1
+    ;; float32 _speed
+    4
+    ;; float32 _height
+    4
+    ))
+  (:serialize
+   (&optional strm)
+   (let ((s (if strm strm
+              (make-string-output-stream (send self :serialization-length)))))
+     ;; uint8 _mode
+       (write-byte _mode s)
+     ;; uint8 _execmode
+       (write-byte _execmode s)
+     ;; float32 _speed
+       (sys::poke _speed (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
+     ;; float32 _height
+       (sys::poke _height (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
+     ;;
+     (if (null strm) (get-output-stream-string s))))
+  (:deserialize
+   (buf &optional (ptr- 0))
+   ;; uint8 _mode
+     (setq _mode (sys::peek buf ptr- :char)) (incf ptr- 1)
+   ;; uint8 _execmode
+     (setq _execmode (sys::peek buf ptr- :char)) (incf ptr- 1)
+   ;; float32 _speed
+     (setq _speed (sys::peek buf ptr- :float)) (incf ptr- 4)
+   ;; float32 _height
+     (setq _height (sys::peek buf ptr- :float)) (incf ptr- 4)
+   ;;
+   self)
+  )
+
+(setf (get woosh_msgs::LiftControl3Goal :md5sum-) "c1c19c7b7b8efaf2b601a6888f76cc1e")
+(setf (get woosh_msgs::LiftControl3Goal :datatype-) "woosh_msgs/LiftControl3Goal")
+(setf (get woosh_msgs::LiftControl3Goal :definition-)
+      "# ====== DO NOT MODIFY! AUTOGENERATED FROM AN ACTION DEFINITION ======
+uint8 mode
+uint8 execmode
+float32 speed
+float32 height
+
+#mode
+uint8 CANCEL = 0
+uint8 EXCUTE = 1
+uint8 PAUSE = 2
+uint8 RESUM = 3
+
+#execmode
+uint8 EXEC_QUERY = 0 #查询状态
+uint8 EXEC_ABSOLUTE = 1 #绝对位置
+uint8 EXEC_RELATIVE = 2 #相对位置
+uint8 EXEC_CALIBRATION = 3 #位置校准
+uint8 EXEC_TESTMODE = 5 #测试模式
+
+")
+
+
+
+(provide :woosh_msgs/LiftControl3Goal "c1c19c7b7b8efaf2b601a6888f76cc1e")
+
+

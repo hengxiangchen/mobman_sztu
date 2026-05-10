@@ -1,0 +1,10 @@
+# ninja log v5
+1	369	1735296362028768091	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/build/temp.linux-x86_64-3.6/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/src/cuda/knn.o	8b22986594d9205a
+1	6204	1735296367864978440	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/build/temp.linux-x86_64-3.6/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/src/cpu/knn_cpu.o	4ed625393291df3e
+1	11285	1735296372941164554	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/build/temp.linux-x86_64-3.6/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/src/vision.o	d5631b1583175418
+1	379	0	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/build/temp.linux-x86_64-3.6/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/src/cuda/knn.o	c1eb406e221d6ef2
+1	6652	0	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/build/temp.linux-x86_64-3.6/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/src/cpu/knn_cpu.o	98d87ee58d706fa0
+1	11853	0	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/build/temp.linux-x86_64-3.6/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/src/vision.o	37acedf90bf63fcd
+1	369	1736149509996872158	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/build/temp.linux-x86_64-3.6/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/src/cuda/knn.o	c1eb406e221d6ef2
+0	6223	1736149515853270334	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/build/temp.linux-x86_64-3.6/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/src/cpu/knn_cpu.o	98d87ee58d706fa0
+0	11244	1736149520869611613	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/build/temp.linux-x86_64-3.6/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/src/vision.o	37acedf90bf63fcd

@@ -1,0 +1,4 @@
+# ninja log v6
+5	450	1744817530705657680	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/build/temp.linux-x86_64-cpython-38/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/src/cuda/knn.o	d64c2aef04f028cc
+5	7828	1744817530705657680	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/build/temp.linux-x86_64-cpython-38/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/src/cpu/knn_cpu.o	79f1de331f184f1a
+6	13957	1744817530709657937	/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/build/temp.linux-x86_64-cpython-38/home/hello/workspace/anygrasp_sdk/graspnet-baseline/knn/src/vision.o	93ffb627a33ea4d
