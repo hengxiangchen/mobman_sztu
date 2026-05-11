@@ -11,18 +11,13 @@
 
 
 ## 环境搭建
-1. 相机[realsense d455i](https://github.com/realsenseai/realsense-ros/tree/ros1-legacy)
 ```bash
 mkdir -p ~/catkin_ws/src
-git clone https://github.com/realsenseai/realsense-ros.git -b ros1-legacy 
 ```
-```bash
-source ~/catkin_ws/devel/setup.bash
-roslaunch realsense2_camera rs_camera.launch
-```
-2. 机械臂[kinova-gen3](https://github.com/Kinovarobotics/ros_kortex)
-3. 底盘[SAMiR®-200/300](https://seafile.wsrobotics.com/d/9fee6b1fda3b4403919c/)
-4. 夹爪[CTAG2F90-C]()
+1. 相机 [realsense d455i](https://github.com/realsenseai/realsense-ros/tree/ros1-legacy)
+2. 机械臂 [kinova-gen3](https://github.com/Kinovarobotics/ros_kortex)
+3. 底盘 [SAMiR®-200/300](https://seafile.wsrobotics.com/d/9fee6b1fda3b4403919c/)
+4. 夹爪 [CTAG2F90-C](https://github.com/hengxiangchen/zhixing_CTAG2F90-C)
 
 
 ## 内参标定
