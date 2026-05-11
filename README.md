@@ -11,15 +11,19 @@
 
 
 ## 环境搭建
+1. 相机[realsense d455i](https://github.com/realsenseai/realsense-ros/tree/ros1-legacy)
 ```bash
 mkdir -p ~/catkin_ws/src
-git clone https://github.com/realsenseai/realsense-ros.git -b ros1-legacy
+git clone https://github.com/realsenseai/realsense-ros.git -b ros1-legacy 
 ```
-
 ```bash
 source ~/catkin_ws/devel/setup.bash
 roslaunch realsense2_camera rs_camera.launch
 ```
+2. 机械臂[kinova-gen3](https://github.com/Kinovarobotics/ros_kortex)
+3. 底盘[SAMiR®-200/300](https://seafile.wsrobotics.com/d/9fee6b1fda3b4403919c/)
+4. 夹爪[CTAG2F90-C]()
+
 
 ## 内参标定
 
@@ -77,5 +81,22 @@ roslaunch easy_handeye calibrate_kinova_on_arm.launch # OR roslaunch easy_handey
 ```
 
 <img width="415" height="234" alt="image" src="https://github.com/user-attachments/assets/f440ea1c-3775-4ea5-bc91-56845bfbc4c0" />
+
+
+## 导航
+```bash
+cd catkin_ws
+source devel/setup.bash
+roslaunch navigation mapping.launch # save as src/navigation/maps/map.png
+```
+```bash
+cd catkin_ws
+source devel/setup.bash
+roslaunch navigation navigation.launch
+```
+
+
+## 
+
 
 
