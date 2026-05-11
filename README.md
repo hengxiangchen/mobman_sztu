@@ -1,9 +1,7 @@
 # 移动操作机器人关键技术研究 | Key Technology Research of Mobile Manipulation Robots
 
 ## 介绍
-本课题旨在构建一套面向室内环境的移动操作机器人（MobMan）平台，实现集自主导航、目标感知与稳健抓取于一体的任务能力，
-并在复杂场景中验证其有效性与实用性。与传统仅限于静态操作或单一导航功能的机器人系统不同，MobMan平台整合了移动底盘、
-机械臂、RGB-D视觉、触觉传感与多模态感知算法。
+本工作构建了面向室内环境的移动操作机器人（MobMan）平台的软件系统，实现集自主导航、目标感知与抓取于一体。MobMan平台整合了移动底盘、机械臂、RGB-D相机和触觉传感器。
 
 
 ## 总体方案
@@ -93,4 +91,14 @@ roslaunch navigation navigation.launch
 
 ## graspnet
 <img width="2560" height="1440" alt="Screenshot from 2025-04-13 17-54-02" src="https://github.com/user-attachments/assets/2ceaa771-2c03-4297-aacb-2b2cd801ecc3" />
+
+
+## yolov8
+ 
+<img width="201" height="151" alt="image" src="https://github.com/user-attachments/assets/b2575e7c-93a8-446a-a97e-277e9d8b51af" />
+
+
+## force control based on gsmini
+
+<img width="297" height="252" alt="image" src="https://github.com/user-attachments/assets/09531ae6-2ba1-45ee-bb65-0d3bc7ff7c93" />
 
